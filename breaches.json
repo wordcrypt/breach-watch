@@ -1,0 +1,86 @@
+{
+  "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
+  "updated": "2026-10-22",
+  "entries": [
+    {
+      "date": "2026-10-22",
+      "company": "Capcom",
+      "type": "Email list",
+      "title": "11.7 million CAPCOM ID records accessed.",
+      "summary": "Capcom says an intruder accessed 11,774,247 CAPCOM ID records containing email addresses and account details such as last login date and IP address, and changed the passwords of 196 accounts. Credit card information was not affected.",
+      "tip": "Treat any email that claims to be from Capcom with suspicion, and change your Capcom password anywhere you reused it.",
+      "source": "Capcom",
+      "sourceShort": "CA",
+      "url": "https://www.capcom.co.jp/ir/english/news/html/e261022.html"
+    },
+    {
+      "date": "2026-10-17",
+      "company": "ConnectWise Cloud Backup",
+      "type": "Business accounts",
+      "title": "Stolen app credentials open Microsoft 365 accounts at 160+ organizations.",
+      "summary": "Attackers signed in to customers' Microsoft 365 environments as ConnectWise's own backup app, so two-factor sign-in didn't apply. Security firm Huntress found at least 162 affected organizations, and ConnectWise took the service offline.",
+      "tip": "IT providers using ConnectWise Cloud Backup should disable the app, remove recently added app secrets, and review Microsoft 365 app sign-ins.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
+    },
+    {
+      "date": "2026-10-15",
+      "company": "SourceNext",
+      "type": "Passwords",
+      "title": "Up to 22.5 million customer records, including passwords.",
+      "summary": "Japanese software company SourceNext says a third party pulled customer data through its member-information system. Records may include email addresses, passwords, names, addresses and phone numbers. All passwords have been reset.",
+      "tip": "If you have a SourceNext account, change that password everywhere else you used it, and watch for fake SourceNext emails and texts.",
+      "source": "SourceNext",
+      "sourceShort": "SN",
+      "url": "https://www.sourcenext.com/support/i/2026/1015_info/"
+    },
+    {
+      "date": "2026-10-06",
+      "company": "Domino's",
+      "type": "Reused passwords",
+      "title": "Customer accounts taken over with reused passwords.",
+      "summary": "Domino's says its systems were not breached. Attackers logged in to a small number of customer accounts using email and password pairs stolen from other websites, a technique called credential stuffing.",
+      "tip": "Never reuse a password. One leak elsewhere is all it takes for attackers to try it on every site you use.",
+      "source": "Malwarebytes",
+      "sourceShort": "MB",
+      "url": "https://www.malwarebytes.com/?p=473538"
+    },
+    {
+      "date": "2026-08-01",
+      "dateLabel": "Aug 2026",
+      "company": "Google Chrome",
+      "type": "Password managers",
+      "title": "Malware can hijack passkeys synced by Chrome's password manager.",
+      "summary": "Palo Alto Networks' Unit 42 showed how malware on a Windows PC can abuse Google Password Manager in Chrome to take over accounts and steal the master key protecting synced passkeys.",
+      "tip": "Keep your computer and browser up to date, and be careful what you install.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/"
+    },
+    {
+      "date": "2026-02-01",
+      "dateLabel": "Feb 2026",
+      "company": "Bitwarden, LastPass, Dashlane",
+      "type": "Password managers",
+      "title": "Study uncovers 25 recovery attacks in major cloud password managers.",
+      "summary": "ETH Zurich researchers found 25 attacks by which someone controlling a vendor's servers could, in some cases, expose passwords stored in Bitwarden, LastPass and Dashlane vaults.",
+      "tip": "Keep your password manager updated and use a long, unique master password.",
+      "source": "The Hacker News",
+      "sourceShort": "HN",
+      "url": "https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html"
+    },
+    {
+      "date": "2026-01-01",
+      "dateLabel": "Jan 2026",
+      "company": "LastPass",
+      "type": "Password managers",
+      "title": "Vaults stolen in 2022 still enabling cryptocurrency theft.",
+      "summary": "Blockchain analysts at TRM Labs traced about $35 million in cryptocurrency stolen by cracking LastPass vaults taken in the 2022 breach, with thefts continuing more than three years later.",
+      "tip": "If your vault was ever exposed, change the passwords and move any crypto keys that were stored in it.",
+      "source": "TechRadar",
+      "sourceShort": "TR",
+      "url": "https://www.techradar.com/pro/security/historic-lastpass-breach-enabling-cryptocurrency-theft-investigation-reveals"
+    }
+  ]
+}
