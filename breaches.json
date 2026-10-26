@@ -1,6 +1,6 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "entries": [
     {
       "date": "2026-10-22",
@@ -47,6 +47,39 @@
       "url": "https://www.malwarebytes.com/?p=473538"
     },
     {
+      "date": "2026-09-18",
+      "company": "Gyazo",
+      "type": "Passwords",
+      "title": "23.6 million user records, including password hashes, stolen.",
+      "summary": "Gyazo's owner Helpfeel said an attacker exploited a flaw in the image upload server on September 11 and took about 23.62 million user records, including email addresses, password hashes, session IDs and X integration tokens. Payment card data was not affected.",
+      "tip": "Change your Gyazo password, and change it anywhere you used the same or a similar one.",
+      "source": "Security Affairs",
+      "sourceShort": "SA",
+      "url": "https://securityaffairs.com/199338/data-breach/gyazo-data-breach-exposes-23-million-user-records.html"
+    },
+    {
+      "date": "2026-09-14",
+      "company": "TELUS",
+      "type": "Passwords",
+      "title": "Customer accounts accessed with stolen logins over 16 months.",
+      "summary": "TELUS is notifying consumer customers whose accounts were accessed with compromised login details between February 2025 and June 2026. Attackers saw names, account and phone numbers, addresses, emails, partial card numbers and payment history, and used them to pressure customers to switch providers.",
+      "tip": "If you're a TELUS customer, use an account password you don't use anywhere else, and be suspicious of calls urging you to switch providers.",
+      "source": "SecurityWeek",
+      "sourceShort": "SW",
+      "url": "https://www.securityweek.com/telus-warns-customers-of-account-breaches/"
+    },
+    {
+      "date": "2026-08-19",
+      "company": "Sakura Internet",
+      "type": "Passwords",
+      "title": "Data of up to 1.36 million member accounts may be exposed.",
+      "summary": "Japanese cloud provider Sakura Internet said hackers got into its sales management system on August 9, which holds customer contract and membership details and hashed passwords. Up to 1,360,563 accounts may be affected; no card data is stored there and no data theft has been confirmed.",
+      "tip": "If you have a Sakura Internet account, change that password and any other account where you used the same one.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/"
+    },
+    {
       "date": "2026-08-01",
       "dateLabel": "Aug 2026",
       "company": "Google Chrome",
@@ -57,6 +90,72 @@
       "source": "BleepingComputer",
       "sourceShort": "BC",
       "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/"
+    },
+    {
+      "date": "2026-07-22",
+      "company": "Chick-fil-A",
+      "type": "Reused passwords",
+      "title": "Rewards accounts hijacked with passwords stolen elsewhere.",
+      "summary": "Chick-fil-A said attackers used email and password pairs from a third-party source to get into Chick-fil-A One accounts from June 17 to 19, 2026. Names, emails, membership and mobile pay numbers, credit balances and the last four digits of saved cards were exposed; affected accounts were logged out and balances restored.",
+      "tip": "Give your Chick-fil-A One account a password you don't use anywhere else.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/"
+    },
+    {
+      "date": "2026-06-28",
+      "company": "KDDI",
+      "type": "Passwords",
+      "title": "Email logins of up to 14.22 million accounts at six Japanese providers exposed.",
+      "summary": "KDDI said attackers exploited a flaw in third-party software on an email system used by KDDI and five other providers, exposing email addresses and passwords; some passwords were hashed or encrypted. Up to 14.22 million current, former and inactive accounts may be affected.",
+      "tip": "If your email is with KDDI, BIGLOBE, NIFTY, JCOM, STNet or Chubu Telecommunications, reset that password now and anywhere you reused it.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/"
+    },
+    {
+      "date": "2026-06-23",
+      "company": "LastPass",
+      "type": "Email list",
+      "title": "Customer contact details exposed through a vendor; vaults not affected.",
+      "summary": "LastPass said an attacker stole OAuth tokens from Klue, a third-party vendor, and used them to reach LastPass customer names, emails, phone numbers, addresses and support case details in Salesforce. LastPass said customer vaults remained secure.",
+      "tip": "Be wary of calls or emails claiming to be from LastPass, and never share your master password.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack"
+    },
+    {
+      "date": "2026-06-17",
+      "company": "Exposed malware log database",
+      "type": "Reused passwords",
+      "title": "24 billion stolen login records found in one open database.",
+      "summary": "Cybernews researchers found an unprotected database of more than 8.3 TB with 24 billion credential records from 36 sources, including logs from password-stealing malware with plain-text passwords. It was taken offline quickly, so duplicates and whose data it held couldn't be determined.",
+      "tip": "Change any password you've reused, starting with email, banking and shopping, and turn on two-step sign-in.",
+      "source": "Malwarebytes",
+      "sourceShort": "MB",
+      "url": "https://www.malwarebytes.com/blog/news/2026/06/24-billion-stolen-records-found-in-giant-data-dump-check-if-youre-affected"
+    },
+    {
+      "date": "2026-06-02",
+      "company": "Dashlane",
+      "type": "Password managers",
+      "title": "Hackers stole about 20 customers' encrypted password vaults.",
+      "summary": "Dashlane said hackers brute-forced two-step sign-in codes to add new devices to about 20 customer accounts and download their encrypted vaults. The vaults can't be read without each customer's master password, and Dashlane said its own systems weren't compromised.",
+      "tip": "If you use Dashlane, make sure your master password is long and unique, and review the devices connected to your account.",
+      "source": "TechCrunch",
+      "sourceShort": "TC",
+      "url": "https://techcrunch.com/2026/06/02/password-manager-dashlane-says-hackers-stole-some-customers-password-vaults/"
+    },
+    {
+      "date": "2026-02-03",
+      "company": "Unprotected login database",
+      "type": "Reused passwords",
+      "title": "149 million usernames and passwords left exposed online.",
+      "summary": "Researcher Jeremiah Fowler found an unprotected database with 149,404,754 unique logins, including an estimated 48 million Gmail, 17 million Facebook and 3.4 million Netflix accounts. It was not a breach of those companies; the data appears to come from past breaches and password-stealing malware.",
+      "tip": "Change passwords you've reused, scan your computer for malware, and turn on two-step sign-in.",
+      "source": "Fox News",
+      "sourceShort": "FOX",
+      "url": "https://www.foxnews.com/tech/149-million-passwords-exposed-massive-credential-leak"
     },
     {
       "date": "2026-02-01",
@@ -81,6 +180,327 @@
       "source": "TechRadar",
       "sourceShort": "TR",
       "url": "https://www.techradar.com/pro/security/historic-lastpass-breach-enabling-cryptocurrency-theft-investigation-reveals"
+    },
+    {
+      "date": "2025-11-06",
+      "company": "Synthient login lists",
+      "type": "Reused passwords",
+      "title": "Nearly 2 billion email addresses and 1.3 billion passwords added to Have I Been Pwned.",
+      "summary": "Have I Been Pwned added almost 2 billion unique email addresses and 1.3 billion unique passwords, 625 million of them never seen before, from credential stuffing lists gathered by Synthient. Subscribers confirmed some of the listed passwords were real, and some were still in use.",
+      "tip": "Check haveibeenpwned.com, change any password that appears there, and stop reusing passwords.",
+      "source": "CyberInsider",
+      "sourceShort": "CI",
+      "url": "https://cyberinsider.com/hibp-adds-2-billion-leaked-emails-from-credential-stuffing-dataset/"
+    },
+    {
+      "date": "2025-10-22",
+      "company": "Synthient stealer logs",
+      "type": "Reused passwords",
+      "title": "183 million email addresses and passwords added to Have I Been Pwned.",
+      "summary": "Have I Been Pwned added 183 million unique email addresses, each tied to a website and password, from 3.5 TB of malware logs collected by Synthient; 16.4 million were new to the service. It was not a Gmail breach; the logins were stolen from infected devices.",
+      "tip": "Check haveibeenpwned.com and change any exposed password everywhere you used it.",
+      "source": "CyberInsider",
+      "sourceShort": "CI",
+      "url": "https://cyberinsider.com/183-million-stolen-credentials-from-synthients-database-added-to-hibp/"
+    },
+    {
+      "date": "2025-09-08",
+      "company": "Plex",
+      "type": "Passwords",
+      "title": "Users told to reset passwords after hashed passwords were stolen.",
+      "summary": "Plex said an attacker accessed a database with email addresses, usernames, securely hashed passwords and authentication data. No payment card data was included, and Plex asked users to reset their passwords.",
+      "tip": "Reset your Plex password with \"sign out connected devices\" checked, turn on two-step sign-in, and change the password anywhere you reused it.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/plex-tells-users-to-reset-passwords-after-new-data-breach/"
+    },
+    {
+      "date": "2025-08-26",
+      "company": "Salesloft Drift",
+      "type": "Business accounts",
+      "title": "Stolen app tokens used to search company Salesforce data for passwords and keys.",
+      "summary": "Hackers stole OAuth tokens for Salesloft's Drift chat integration and used them from August 8 to 18 to pull data from customers' Salesforce systems, searching it for passwords, AWS keys and other secrets. Salesloft revoked all Drift tokens.",
+      "tip": "For IT teams: reconnect third-party app integrations with new tokens and rotate any passwords or keys stored in support tickets or CRM records.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/salesloft-breached-to-steal-oauth-tokens-for-salesforce-data-theft-attacks/"
+    },
+    {
+      "date": "2025-08-20",
+      "company": "Password manager extensions",
+      "type": "Password managers",
+      "title": "Clickjacking trick could make browser extensions fill in logins for attackers.",
+      "summary": "A researcher showed that hidden forms on a malicious page could trick 11 password manager browser extensions, including 1Password, Bitwarden, LastPass and iCloud Passwords, into filling in logins, two-factor codes or card details with one click. Some vendors had released fixes at disclosure; others had not.",
+      "tip": "Keep password manager extensions updated, and consider turning off automatic autofill so logins are filled only when you choose.",
+      "source": "The Hacker News",
+      "sourceShort": "THN",
+      "url": "https://thehackernews.com/2025/08/dom-based-extension-clickjacking.html"
+    },
+    {
+      "date": "2025-07-11",
+      "company": "McDonald's McHire",
+      "type": "Business accounts",
+      "title": "Password \"123456\" exposed 64 million job applications.",
+      "summary": "Researchers signed in to a test admin account for McDonald's McHire hiring chatbot, run by Paradox.ai, using 123456 as both username and password. With a second flaw, they could see more than 64 million job applications with names, emails, phone numbers and home addresses; it was fixed the day it was reported.",
+      "tip": "If you applied for a McDonald's job through McHire, watch for fake job offers that ask for money or bank details.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/123456-password-exposed-chats-for-64-million-mcdonalds-job-chatbot-applications"
+    },
+    {
+      "date": "2025-06-19",
+      "company": "Exposed login datasets",
+      "type": "Reused passwords",
+      "title": "About 16 billion login records briefly left open online.",
+      "summary": "Cybernews researchers found 30 briefly exposed datasets holding about 16 billion records of website addresses, logins and passwords, mostly collected by password-stealing malware. Many records are duplicates or old, so the number of unique accounts is unclear.",
+      "tip": "Change any password you've used on more than one site, and turn on two-step sign-in for email and banking.",
+      "source": "Security Affairs",
+      "sourceShort": "SA",
+      "url": "https://securityaffairs.com/179149/cyber-crime/researchers-discovered-the-largest-data-breach-ever-exposing-16-billion-login-credentials.html"
+    },
+    {
+      "date": "2025-06-03",
+      "company": "The North Face",
+      "type": "Reused passwords",
+      "title": "Customer accounts accessed with passwords stolen elsewhere.",
+      "summary": "The North Face said attackers used stolen email and password pairs in a small credential stuffing attack on April 23, 2025. They may have seen names, emails, shipping addresses, purchase history and, if saved, birth dates and phone numbers; payment cards are not stored on the site.",
+      "tip": "If you haven't changed your North Face password since April 2025, change it to one you don't use anywhere else.",
+      "source": "Malwarebytes",
+      "sourceShort": "MB",
+      "url": "https://www.malwarebytes.com/blog/news/2025/06/the-north-face-warns-customers-about-potentially-stolen-data"
+    },
+    {
+      "date": "2025-05-27",
+      "dateLabel": "May 2025",
+      "company": "Unprotected login database",
+      "type": "Reused passwords",
+      "title": "184 million usernames and passwords found online.",
+      "summary": "Researcher Jeremiah Fowler found an unprotected database with about 184 million plain-text usernames and passwords for services including Apple, Google, Microsoft, Facebook, banks and government portals. It was likely collected by password-stealing malware.",
+      "tip": "Change passwords you've reused, starting with email and banking, and turn on two-step sign-in.",
+      "source": "Security Boulevard",
+      "sourceShort": "SB",
+      "url": "https://securityboulevard.com/2025/05/massive-data-breach-exposes-184-million-login-credentials-what-to-do/"
+    },
+    {
+      "date": "2025-05-21",
+      "company": "Lumma Stealer",
+      "type": "Passwords",
+      "title": "Password-stealing malware disrupted after infecting 394,000 computers.",
+      "summary": "Microsoft and law enforcement partners seized about 2,300 domains used by Lumma, malware that steals saved passwords, cookies, credit cards and crypto wallets from web browsers. Microsoft found more than 394,000 infected Windows computers in two months.",
+      "tip": "Keep your antivirus on and updated and avoid pirated software; if you suspect malware, clean your computer, then change your passwords.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://bleepingcomputer.com/news/security/lumma-infostealer-malware-operation-disrupted-2-300-domains-seized"
+    },
+    {
+      "date": "2025-05-19",
+      "company": "KeePass (fake installer)",
+      "type": "Password managers",
+      "title": "Fake password manager installer stole users' password databases.",
+      "summary": "WithSecure found that Bing ads led people to fake sites offering a modified version of the KeePass password manager. It worked normally but exported the password database in plain text to the attackers and installed tools that led to a ransomware attack.",
+      "tip": "Download password managers and other software only from the official website, never from search ads.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-keepass-password-manager-leads-to-esxi-ransomware-attack/"
+    },
+    {
+      "date": "2025-04-03",
+      "company": "Oracle Cloud",
+      "type": "Business accounts",
+      "title": "Old login data with hashed passwords stolen from a legacy system.",
+      "summary": "Oracle privately told customers that attackers stole old client credentials, including usernames, emails and hashed passwords, from a legacy environment. A hacker had offered 6 million records from Oracle's cloud sign-in servers for sale; Oracle publicly denied an Oracle Cloud breach.",
+      "tip": "For IT teams using Oracle Cloud: reset passwords for affected accounts and rotate keys and secrets tied to single sign-on.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://bleepingcomputer.com/news/security/oracle-privately-confirms-cloud-breach-to-customers"
+    },
+    {
+      "date": "2025-02-25",
+      "company": "ALIEN TXTBASE logs",
+      "type": "Reused passwords",
+      "title": "284 million accounts stolen by password-stealing malware.",
+      "summary": "Have I Been Pwned added 284 million email addresses from 1.5 TB of malware logs shared in a Telegram channel called ALIEN TXTBASE, plus 244 million passwords it hadn't seen before. Each log pairs a website with the email and password someone used there.",
+      "tip": "Check haveibeenpwned.com, change any exposed password everywhere you used it, and scan your computer for malware.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/have-i-been-pwned-adds-284m-accounts-stolen-by-infostealer-malware/"
+    },
+    {
+      "date": "2025-01-28",
+      "company": "PowerSchool",
+      "type": "Business accounts",
+      "title": "One stolen login exposed student and teacher records.",
+      "summary": "A hacker used compromised credentials for PowerSchool's customer support portal to export student and teacher data from school systems in the U.S. and Canada. Names, contact details, Social Security numbers, medical alerts and grades were included for some people.",
+      "tip": "If your school notified you, accept the free credit or identity monitoring offered, and consider freezing your child's credit.",
+      "source": "CyberInsider",
+      "sourceShort": "CI",
+      "url": "https://cyberinsider.com/powerschool-notifies-students-and-educators-of-major-data-breach/"
+    },
+    {
+      "date": "2024-11-04",
+      "company": "Okta",
+      "type": "Business accounts",
+      "title": "Flaw let some accounts sign in with any password.",
+      "summary": "Okta fixed a bug in its AD/LDAP Delegated Authentication where a username of 52 or more characters could be accepted with any password under certain conditions, such as a cached login with multi-factor sign-in turned off. The issue existed from July 23 to October 30, 2024.",
+      "tip": "For IT teams using Okta: check logs for long-username sign-ins in that period and require multi-factor sign-in for every user.",
+      "source": "The Register",
+      "sourceShort": "REG",
+      "url": "https://www.theregister.com/2024/11/04/why_the_long_name_okta/"
+    },
+    {
+      "date": "2024-10-10",
+      "company": "Internet Archive",
+      "type": "Passwords",
+      "title": "31 million user accounts and password hashes stolen.",
+      "summary": "Hackers breached the Internet Archive and took a database of about 31 million users' email addresses, screen names and bcrypt password hashes. The data was added to Have I Been Pwned.",
+      "tip": "If you haven't changed your Internet Archive password since October 2024, change it now, along with any other account where you used the same one.",
+      "source": "Help Net Security",
+      "sourceShort": "HNS",
+      "url": "https://www.helpnetsecurity.com/2024/10/10/internet-archive-data-breach/"
+    },
+    {
+      "date": "2024-09-12",
+      "company": "Transport for London",
+      "type": "Business accounts",
+      "title": "30,000 staff passwords reset in person after a cyberattack.",
+      "summary": "Transport for London said all 30,000 employees must verify their identity and reset their passwords in person after a cyberattack. Oyster card refund data, including bank account numbers and sort codes for about 5,000 customers, may have been accessed.",
+      "tip": "If TfL contacted you about refund data, watch your bank account and be wary of calls or emails asking for more details.",
+      "source": "The Register",
+      "sourceShort": "REG",
+      "url": "https://theregister.com/2024/09/12/transport_for_londons_cyber_attack/"
+    },
+    {
+      "date": "2024-07-17",
+      "company": "Trello",
+      "type": "Email list",
+      "title": "15 million user email addresses offered for about $2.",
+      "summary": "A hacker matched more than 15 million email addresses to Trello accounts in January 2024 through an open Trello API, then offered the list with names and public profile details on a hacking forum in July. No passwords were included.",
+      "tip": "Be wary of emails that claim to be from Trello or Atlassian and ask you to sign in.",
+      "source": "TechRadar",
+      "sourceShort": "TR",
+      "url": "https://www.techradar.com/pro/security/millions-of-trello-user-accounts-leaked-online-personal-info-available-for-basically-nothing-heres-what-we-know"
+    },
+    {
+      "date": "2024-07-08",
+      "company": "RockYou2024",
+      "type": "Reused passwords",
+      "title": "Almost 10 billion passwords posted in one file.",
+      "summary": "A file named rockyou2024.txt with 9,948,575,739 unique plain-text passwords was posted on a hacking forum on July 4. Cybernews researchers say it mixes old and new breaches collected over about 20 years.",
+      "tip": "Assume any password you've reused could be in lists like this; change reused passwords, starting with email and banking.",
+      "source": "Security Affairs",
+      "sourceShort": "SA",
+      "url": "https://securityaffairs.com/165460/data-breach/rockyou2024-compilation-10b-passwords.html"
+    },
+    {
+      "date": "2024-07-03",
+      "company": "Twilio Authy",
+      "type": "Email list",
+      "title": "Phone numbers of two-factor app users exposed through an unsecured endpoint.",
+      "summary": "Twilio said attackers identified data linked to Authy accounts, including phone numbers, through an unauthenticated endpoint that it has since secured. A hacker claimed 33 million numbers; Twilio did not confirm that figure.",
+      "tip": "Update the Authy app and be wary of texts or calls claiming to be from Authy or Twilio.",
+      "source": "TechCrunch",
+      "sourceShort": "TC",
+      "url": "https://techcrunch.com/2024/07/03/twilio-says-hackers-identified-cell-phone-numbers-of-two-factor-app-authy-users"
+    },
+    {
+      "date": "2024-06-10",
+      "dateLabel": "Jun 2024",
+      "company": "Snowflake customers",
+      "type": "Business accounts",
+      "title": "Stolen passwords without two-step sign-in led to data theft at about 165 companies.",
+      "summary": "Mandiant found attackers signed in to Snowflake customers' accounts with passwords stolen by malware, some dating back to 2020, on accounts without multi-factor authentication. About 165 organizations were affected; earlier reports named Ticketmaster and Santander among potential victims.",
+      "tip": "If a company you use says it was affected, change your password there and watch for scam emails that use your details.",
+      "source": "SecurityWeek",
+      "sourceShort": "SW",
+      "url": "https://www.securityweek.com/snowflake-attacks-mandiant-links-data-breaches-to-infostealer-infections/"
+    },
+    {
+      "date": "2024-06-04",
+      "company": "Telegram login lists",
+      "type": "Reused passwords",
+      "title": "361 million email addresses found in stolen login lists.",
+      "summary": "Have I Been Pwned added 361 million email addresses from login lists shared in Telegram channels; 151 million had never appeared in its database before. Some files paired email addresses with passwords and the website they were used on, likely from earlier breaches and password-stealing malware.",
+      "tip": "Check your email address at haveibeenpwned.com and change any password you've used on more than one site.",
+      "source": "Help Net Security",
+      "sourceShort": "HNS",
+      "url": "https://www.helpnetsecurity.com/2024/06/04/check-account-credentials-compromised/"
+    },
+    {
+      "date": "2024-05-01",
+      "company": "Dropbox Sign",
+      "type": "Passwords",
+      "title": "Hashed passwords, API keys and two-step sign-in data stolen.",
+      "summary": "Dropbox said attackers broke into Dropbox Sign's production systems and accessed emails, usernames, phone numbers, hashed passwords and authentication data such as API keys, OAuth tokens and multi-factor settings. Dropbox reset all users' passwords and logged everyone out.",
+      "tip": "If you use Dropbox Sign, make sure you've set a new password and re-added it to your authenticator app, and change the old password anywhere you reused it.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/dropbox-says-hackers-stole-customer-data-auth-secrets-from-eSignature-service/"
+    },
+    {
+      "date": "2024-04-30",
+      "company": "Change Healthcare",
+      "type": "Business accounts",
+      "title": "Stolen login opened a remote-access portal with no two-step sign-in.",
+      "summary": "UnitedHealth's CEO said hackers used stolen login credentials to get into a Change Healthcare remote-access portal that did not have multi-factor authentication. The ransomware attack exposed health data on what UnitedHealth called a substantial proportion of people in America.",
+      "tip": "If you get a breach letter from Change Healthcare, sign up for the free monitoring it offers and check medical bills and insurance statements for services you didn't receive.",
+      "source": "TechCrunch",
+      "sourceShort": "TC",
+      "url": "https://techcrunch.com/2024/04/30/uhg-change-healthcare-ransomware-compromised-credentials-mfa"
+    },
+    {
+      "date": "2024-04-12",
+      "company": "Roku",
+      "type": "Reused passwords",
+      "title": "576,000 accounts taken over with reused passwords.",
+      "summary": "Roku said attackers logged in to about 576,000 accounts with usernames and passwords stolen from other services, after an earlier incident affecting about 15,000 accounts. In fewer than 400 cases they bought subscriptions or devices with saved payment methods; Roku reset passwords and turned on two-step sign-in for all accounts.",
+      "tip": "Give your Roku account a password you don't use anywhere else, and check your purchase history for anything you didn't buy.",
+      "source": "Security Affairs",
+      "sourceShort": "SA",
+      "url": "https://securityaffairs.com/161765/data-breach/roku-second-data-breach.html"
+    },
+    {
+      "date": "2024-03-30",
+      "company": "AT&T",
+      "type": "Passwords",
+      "title": "Passcodes reset after records of 73 million account holders leaked.",
+      "summary": "AT&T reset account passcodes for about 7.6 million current customers after a dataset covering about 73 million current and former account holders appeared online. The records included names, addresses, birth dates, Social Security numbers and encrypted passcodes, which a researcher said could be unscrambled.",
+      "tip": "If you've had an AT&T account, use a passcode you don't use anywhere else, and consider freezing your credit since Social Security numbers were included.",
+      "source": "TechCrunch",
+      "sourceShort": "TC",
+      "url": "https://techcrunch.com/2024/03/30/att-reset-account-passcodes-customer-data/"
+    },
+    {
+      "date": "2024-03-29",
+      "company": "Hot Topic",
+      "type": "Reused passwords",
+      "title": "Rewards accounts targeted with passwords stolen elsewhere.",
+      "summary": "Hot Topic said attackers used email and password pairs from another source to log in to Hot Topic Rewards accounts in November 2023. Names, emails, addresses, order history, phone numbers, birth month and day, and the last four digits of saved cards may have been exposed.",
+      "tip": "If you haven't changed your Hot Topic password since late 2023, change it now, along with any other account where you used the same one.",
+      "source": "Security Affairs",
+      "sourceShort": "SA",
+      "url": "https://securityaffairs.com/161192/data-breach/hot-topic-suffered-credential-stuffing-attacks.html"
+    },
+    {
+      "date": "2024-03-06",
+      "company": "PetSmart",
+      "type": "Reused passwords",
+      "title": "Passwords reset after credential stuffing attacks.",
+      "summary": "PetSmart warned some customers that attackers were trying email and password pairs stolen from other sites on its website. It reset the passwords of accounts that were logged in during the attacks and said its own systems were not compromised.",
+      "tip": "If you haven't changed your PetSmart password since early 2024, change it to one you don't use anywhere else, and change it on any site where you reused it.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/petsmart-warns-of-credential-stuffing-attacks-trying-to-hack-accounts/"
+    },
+    {
+      "date": "2024-01-27",
+      "company": "Microsoft",
+      "type": "Business accounts",
+      "title": "State hackers got in through a test account with no two-step sign-in.",
+      "summary": "Microsoft says the Russia-linked group Midnight Blizzard used a password-spray attack to break into an old test account that didn't have multi-factor authentication. From there, the attackers read emails from senior leadership, security and legal staff, and stole files.",
+      "tip": "For businesses: turn on multi-factor sign-in for every account, including old test and admin accounts, and remove accounts nobody uses.",
+      "source": "The Register",
+      "sourceShort": "REG",
+      "url": "https://www.theregister.com/2024/01/27/microsoft_cozy_bear_mfa"
     }
   ]
 }
