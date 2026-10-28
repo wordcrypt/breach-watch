@@ -1,7 +1,40 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-10-26",
+  "updated": "2026-10-28",
   "entries": [
+    {
+      "date": "2026-10-27",
+      "company": "Sony Network Communications (So-net / plala)",
+      "type": "Passwords",
+      "title": "2.58 million customer records exposed, including 54,401 email passwords.",
+      "summary": "The Sony-owned Japanese internet provider says an attacker accessed its member database on October 19, exposing names, phone numbers, email addresses, user IDs and dates of birth for 2,585,481 current and former So-net and plala members. Passwords for 54,401 email accounts were also exposed and were reset on October 27; member account passwords and credit card details were not affected.",
+      "tip": "If you use So-net or plala, set a new email password, change it anywhere else you reused it, and ignore messages about the breach that ask you to click a link.",
+      "source": "Impress Watch",
+      "sourceShort": "IW",
+      "url": "https://www.watch.impress.co.jp/docs/news/2151604.html"
+    },
+    {
+      "date": "2026-10-26",
+      "company": "DreamHost",
+      "type": "Passwords",
+      "title": "Email and FTP/SFTP passwords reset during an unexplained incident.",
+      "summary": "During an incident that began on October 23 and took its web File Manager offline, DreamHost expired the passwords of some email and FTP/SFTP users as a precaution, and is asking account owners to change every email and FTP/SFTP password. DreamHost hasn't said whether any credentials were accessed and is still investigating the cause.",
+      "tip": "If you host with DreamHost, change every mailbox and FTP/SFTP password, remove any email forwarding you don't recognize, and change the old passwords anywhere you reused them.",
+      "source": "webhosting.today",
+      "sourceShort": "WT",
+      "url": "https://webhosting.today/2026/10/26/dreamhost-urges-affected-owners-to-reset-every-email-and-ftp-password/"
+    },
+    {
+      "date": "2026-10-23",
+      "company": "Fortinet and Palo Alto Networks firewalls",
+      "type": "Business accounts",
+      "title": "Hacking group exposes more than 70,000 credentials from company firewalls and VPNs.",
+      "summary": "Group-IB and NyxLab say a group called k0t broke into exposed Fortinet FortiGate and Palo Alto Networks GlobalProtect devices using known flaws or common passwords, then moved through company networks. More than 70,000 exposed credentials are tied to the campaign, and many victims later appeared on ransomware leak sites.",
+      "tip": "IT teams should patch firewalls and VPNs, replace any default or common passwords on them, and reset credentials for devices that were exposed to the internet.",
+      "source": "The Hacker News",
+      "sourceShort": "THN",
+      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
+    },
     {
       "date": "2026-10-22",
       "company": "Capcom",
@@ -12,6 +45,28 @@
       "source": "Capcom",
       "sourceShort": "CA",
       "url": "https://www.capcom.co.jp/ir/english/news/html/e261022.html"
+    },
+    {
+      "date": "2026-10-21",
+      "company": "GMO Internet (Onamae.com Desktop Cloud)",
+      "type": "Business accounts",
+      "title": "Malware installed on up to 26,739 customer cloud servers.",
+      "summary": "GMO Internet says attackers installed unauthorized programs in customer servers of its Japanese Onamae.com Desktop Cloud service, and it shut the servers down. Data stored on the affected servers, including any saved passwords, may have been exposed; payment card details are kept separately and are reportedly not affected.",
+      "tip": "If you used Onamae.com Desktop Cloud, change any passwords you saved or used on that server, and ignore emails or calls asking for your password or card details.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected"
+    },
+    {
+      "date": "2026-10-20",
+      "company": "TeamUpdraft (UpdraftPlus)",
+      "type": "Business accounts",
+      "title": "Stolen keys used to backdoor WordPress sites after a customer database breach.",
+      "summary": "TeamUpdraft says an attacker likely accessed its customer database, including password hashes, two-factor settings and UpdraftCentral connection keys, on October 17–18. Security firm Patchstack reports the stolen keys were then used to add administrator accounts and backdoor plugins to WordPress sites.",
+      "tip": "WordPress site owners using UpdraftPlus should update the plugin, delete UpdraftCentral connection keys, check for unknown admin accounts, and change their TeamUpdraft password.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites"
     },
     {
       "date": "2026-10-17",
