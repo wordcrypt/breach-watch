@@ -1,7 +1,51 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-10-28",
+  "updated": "2026-11-11",
   "entries": [
+    {
+      "date": "2026-11-11",
+      "company": "YouHack forum (via Have I Been Pwned)",
+      "type": "Reused passwords",
+      "title": "7.2 million email addresses from an old hacking-forum breach added to Have I Been Pwned.",
+      "summary": "Have I Been Pwned added data from a 2013 breach of YouHack, a Russian-language hacking forum, covering about 107,000 forum members with usernames, IP addresses and weakly protected passwords. Members had also posted email-and-password pairs stolen from other people, bringing the total to 7.2 million unique email addresses.",
+      "tip": "Check your email at haveibeenpwned.com, and if it shows up, change that password anywhere you still use it.",
+      "source": "Have I Been Pwned",
+      "sourceShort": "PWN",
+      "url": "https://haveibeenpwned.com/Breach/YouHack"
+    },
+    {
+      "date": "2026-11-09",
+      "company": "SEGA",
+      "type": "Email list",
+      "title": "About 2.2 million newsletter email addresses leaked through an email vendor.",
+      "summary": "SEGA says ARARA, the outside company that sends its newsletters, was breached, exposing about 2.2 million subscriber email addresses, with extra details on roughly 92,000 records still being checked. SEGA says passwords, card details and SEGA Account emails were not included, and it is contacting affected customers.",
+      "tip": "Be wary of emails that look like they come from SEGA, and never click links or enter a password from an unexpected message.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "mSecure",
+      "type": "Password managers",
+      "title": "mSecure warns users to change passwords after suspicious activity.",
+      "summary": "The maker of the mSecure password app emailed current and former customers about suspicious activity tied to the app and suggested they consider changing passwords, resetting two-factor codes and removing passkeys. The company has not said how many users were affected or whether any saved data was reached.",
+      "tip": "If you use or used mSecure, change the passwords for your most important accounts first, starting with email and banking, and reset their two-factor settings.",
+      "source": "The Hacker News",
+      "sourceShort": "THN",
+      "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "OpsShield (cPGuard)",
+      "type": "Business accounts",
+      "title": "Fake security update hits about 2,950 web hosting servers and steals login data.",
+      "summary": "Attackers used a customer account to get into OpsShield's systems and pushed a malicious cPGuard update that ran on about 2,950 Linux hosting servers for roughly 70 minutes, collecting password hashes, SSH keys and database passwords. Around 7,900 billing accounts, including hashed passwords, were also taken; the company has released a clean update and told customers to reset their credentials.",
+      "tip": "If your website host or IT provider uses cPGuard, ask them to confirm the update was applied and change your hosting, database and email passwords.",
+      "source": "OpsShield",
+      "sourceShort": "OS",
+      "url": "https://opsshield.com/notice/security-incident-disclosure-servermanage.html"
+    },
     {
       "date": "2026-10-27",
       "company": "Sony Network Communications (So-net / plala)",
