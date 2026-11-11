@@ -14,6 +14,17 @@
       "url": "https://haveibeenpwned.com/Breach/YouHack"
     },
     {
+      "date": "2026-11-10",
+      "company": "Microsoft Outlook",
+      "type": "Business accounts",
+      "title": "Outlook flaw used in attacks to steal Windows login data from business users.",
+      "summary": "Microsoft fixed a flaw in business versions of Outlook (Microsoft 365 Apps for Enterprise and Office LTSC 2021/2024) that attackers were already exploiting. Opening a booby-trapped message file could make Outlook quietly connect to an attacker's server and hand over a scrambled copy of the user's Windows login (an NTLM hash) that can be cracked or reused; Microsoft has not said how many people were targeted.",
+      "tip": "Make sure Office is fully updated this month, and be careful opening message files attached to unexpected emails.",
+      "source": "Cyber Security News",
+      "sourceShort": "CSN",
+      "url": "https://cybersecuritynews.com/outlook-0-day-vulnerability/"
+    },
+    {
       "date": "2026-11-09",
       "company": "SEGA",
       "type": "Email list",
