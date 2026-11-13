@@ -1,7 +1,29 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-11",
+  "updated": "2026-11-13",
   "entries": [
+    {
+      "date": "2026-11-12",
+      "company": "Notion (via Fireworks AI)",
+      "type": "Business accounts",
+      "title": "Notion AI chat logs exposed after a hack at an outside AI vendor.",
+      "summary": "Fireworks AI, a company Notion used to run some of its AI features, was broken into in October, and attackers reached Notion AI chat transcripts. Notion says fewer than 1% of workspaces were affected and is contacting those customers. Anything people typed into those chats, including passwords or keys, should be treated as exposed.",
+      "tip": "If you ever pasted a password or login into an AI chat, change that password now, and avoid pasting passwords into chat tools.",
+      "source": "SecurityWeek",
+      "sourceShort": "SW",
+      "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "Chainstack",
+      "type": "Business accounts",
+      "title": "Default admin password on a test server led to stolen customer names, emails and password hashes.",
+      "summary": "Blockchain infrastructure provider Chainstack says an attacker got in through a test tool left online with its default administrator login, then moved into its production systems in late October. Customer names, email addresses and scrambled (hashed) passwords were taken, and node credentials are being treated as exposed. Chainstack is asking customers to change their passwords and rotate their keys, and warns it will never ask for them.",
+      "tip": "If you have a Chainstack account, change your password there and anywhere else you reused it, and watch for fake emails asking for your login.",
+      "source": "The Block",
+      "sourceShort": "TB",
+      "url": "https://www.theblock.co/news/ecosystems/2026-11-12-chainstack-security-breach-438509"
+    },
     {
       "date": "2026-11-11",
       "company": "YouHack forum (via Have I Been Pwned)",
