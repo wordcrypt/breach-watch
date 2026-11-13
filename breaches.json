@@ -48,6 +48,17 @@
     },
     {
       "date": "2026-11-09",
+      "company": "Iris Plaza (Iris Ohyama)",
+      "type": "Passwords",
+      "title": "Shopping site breach may have exposed 7.7 million people, including members' encrypted passwords.",
+      "summary": "Hackers broke into an outside cloud service used by the Japanese shopping site Iris Plaza, which has been offline since the intrusion was found on October 28. For 5.8 million current and former members, the exposed data includes names, contact details, dates of birth and encrypted passwords.",
+      "tip": "If you have an Iris Plaza account, change that password and any other account where you used the same one.",
+      "source": "SecurityWeek",
+      "sourceShort": "SW",
+      "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/"
+    },
+    {
+      "date": "2026-11-09",
       "company": "SEGA",
       "type": "Email list",
       "title": "About 2.2 million newsletter email addresses leaked through an email vendor.",
@@ -56,6 +67,17 @@
       "source": "BleepingComputer",
       "sourceShort": "BC",
       "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/"
+    },
+    {
+      "date": "2026-11-06",
+      "company": "Technical University of Munich (TUM)",
+      "type": "Passwords",
+      "title": "Hackers stole the login passwords of everyone registered on the student and staff portal.",
+      "summary": "Germany's top university says attackers took central login passwords, names, home addresses and dates of birth from its myTUM portal and used an administrator's login to attack its campus system. TUM says accounts protected by two-factor sign-in were not affected.",
+      "tip": "If you have a TUM account, change your password, turn on two-factor sign-in, and change the same password anywhere else you used it.",
+      "source": "Technical University of Munich",
+      "sourceShort": "TUM",
+      "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/it-security-incident-at-tum"
     },
     {
       "date": "2026-11-03",
