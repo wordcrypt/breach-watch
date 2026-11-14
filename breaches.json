@@ -1,7 +1,18 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "entries": [
+    {
+      "date": "2026-11-13",
+      "company": "Uber (via Fireworks AI)",
+      "type": "Business accounts",
+      "title": "Stolen Uber logins at an outside AI vendor exposed driver details, including driver's license information.",
+      "summary": "Hackers who broke into Fireworks AI, an outside AI company Uber used, took Uber login credentials stored there and used them to reach Uber data held with that vendor. State filings show about 7,900 people notified in just three states so far, with drivers' personal details including driver's license information, and Uber has not given a full total. Uber cut its connection to the vendor and is offering affected people free credit monitoring.",
+      "tip": "If you drive for Uber and get a notice, sign up for the free credit monitoring and watch for scam emails or texts that mention your account.",
+      "source": "TechCrunch",
+      "sourceShort": "TC",
+      "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+    },
     {
       "date": "2026-11-12",
       "company": "Notion (via Fireworks AI)",
