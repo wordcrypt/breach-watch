@@ -1,7 +1,40 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "entries": [
+    {
+      "date": "2026-11-15",
+      "company": "Coinone (via MetaM)",
+      "type": "Passwords",
+      "title": "Hack at a crypto exchange's customer support contractor exposed details customers shared, including passwords.",
+      "summary": "Attackers broke into the servers of MetaM, the outside company that handles customer support for South Korean crypto exchange Coinone, on November 12. Information customers gave during support chats and calls may have been taken, including names, phone numbers, emails, bank account numbers, ID numbers and, in some cases, passwords; Coinone has not said how many people are affected. Coinone blocked the access, moved support to email only, stepped up monitoring of logins and withdrawals, and reported the incident to regulators.",
+      "tip": "If you ever gave a password to a support agent, change it now, change it anywhere else you used it, and remember real support staff will never ask for passwords or codes.",
+      "source": "crypto.news",
+      "sourceShort": "CN",
+      "url": "https://crypto.news/coinone-data-breach-customer-support-hack/"
+    },
+    {
+      "date": "2026-11-13",
+      "company": "Apify",
+      "type": "Business accounts",
+      "title": "Web scraping platform says one stolen login let attackers reach customer accounts and data.",
+      "summary": "Apify, a cloud platform for web scraping and automation with about 91,000 customers, said an attacker used one compromised credential on November 9-10 to collect more credentials and get into internal systems and some customer accounts. A customer notice reported by SecurityWeek lists password hashes, two-factor recovery codes, Google and GitHub sign-in tokens, contact details and partial card details among the data involved; Apify has not said how many accounts were hit. The company blocked the access, changed internal secrets, revoked some GitHub connections and is notifying affected customers.",
+      "tip": "If you use Apify, change your password, generate new two-factor recovery codes, and reconnect any GitHub or Google links the company asks you to.",
+      "source": "SecurityWeek",
+      "sourceShort": "SW",
+      "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/"
+    },
+    {
+      "date": "2026-11-13",
+      "company": "Oxio (Cogeco)",
+      "type": "Email list",
+      "title": "Canadian internet provider's vendor hack exposed customer names, emails and usernames.",
+      "summary": "Oxio, a home internet provider owned by Cogeco, said hackers broke into the platform of an outside account management vendor on October 15, a vendor that also serves several other telecom companies. Names, email addresses, usernames, home addresses and account notes for current and former customers were taken, while Oxio says no passwords or financial details were accessed. Oxio says the incident is contained and Cogeco is contacting affected people directly.",
+      "tip": "If you are an Oxio customer, expect scam emails, texts or calls that use your name and account details, and never share a verification code with anyone who contacts you.",
+      "source": "MobileSyrup",
+      "sourceShort": "MS",
+      "url": "https://mobilesyrup.com/2026/11/13/cogeco-owned-oxio-data-breach-customer-data"
+    },
     {
       "date": "2026-11-13",
       "company": "Uber (via Fireworks AI)",
