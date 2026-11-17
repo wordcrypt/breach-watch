@@ -1,7 +1,18 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-15",
+  "updated": "2026-11-17",
   "entries": [
+    {
+      "date": "2026-11-16",
+      "company": "Trezor (via Skladon)",
+      "type": "Email list",
+      "title": "Shipping partner breach exposed contact details from about 27,000 crypto wallet orders, and scam calls have followed.",
+      "summary": "Hardware wallet maker Trezor said its shipping partner Skladon was breached on November 7, exposing data from roughly 27,000 orders placed between August 9 and November 7. Names, delivery addresses, phone numbers, email addresses and order details were taken, but no wallet PINs, passphrases or backups were involved, and some customers already report scam calls. Trezor notified data protection regulators, is cutting how long order data is kept, and published guidance warning that it will never call customers or ask for a wallet backup.",
+      "tip": "If you ordered a Trezor recently, hang up on any caller claiming to be from the company, and never type your recovery words into any website, email or form.",
+      "source": "crypto.news",
+      "sourceShort": "CN",
+      "url": "https://crypto.news/trezor-skladon-data-breach-27000-orders-scam-calls/"
+    },
     {
       "date": "2026-11-15",
       "company": "Coinone (via MetaM)",
