@@ -1,7 +1,18 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "entries": [
+    {
+      "date": "2026-11-17",
+      "company": "Rakuten Securities",
+      "type": "Email list",
+      "title": "Hack of a test system may have exposed login IDs for up to 15.7 million brokerage accounts.",
+      "summary": "Japanese online broker Rakuten Securities said an outsider got into a test system that, after an internal update, held real customer data, and that information may have left the company on November 11. Login IDs and account codes for about 11.25 million accounts may be exposed, plus names, contact details, email addresses, bank details, income and asset information for another 4.47 million. The company says no passwords or trading PINs were confirmed taken and no unauthorized trades have been found; it blocked the access, is contacting affected customers one by one, and is urging them to switch to passkey sign-in.",
+      "tip": "If you have a Rakuten Securities account, ignore calls or emails asking you to log in or confirm details, and turn on passkey sign-in from inside the app.",
+      "source": "ASCII.jp",
+      "sourceShort": "AJ",
+      "url": "https://ascii.jp/en/elem/000/004/452/4452471/"
+    },
     {
       "date": "2026-11-16",
       "company": "Trezor (via Skladon)",
