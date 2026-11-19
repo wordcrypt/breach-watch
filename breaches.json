@@ -1,7 +1,29 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "entries": [
+    {
+      "date": "2026-11-19",
+      "company": "Transport for London (Oyster photocard)",
+      "type": "Reused passwords",
+      "title": "Attackers got into Oyster photocard accounts, and about 265,000 customers may be affected.",
+      "summary": "Transport for London took its Oyster photocard website offline after customers began getting unexpected emails from its own systems on November 16, which TfL says came from the compromise. About 265,000 customers are potentially affected; TfL says passwords, bank and card details and journey history were not compromised, and it has reported the incident to the UK data regulator. TfL is contacting affected customers and will ask all photocard customers to change their passwords and security answers, while existing photocards keep working.",
+      "tip": "If you have a TfL photocard account, change its password and security answers, and change the same password anywhere else you used it.",
+      "source": "The Register",
+      "sourceShort": "TR",
+      "url": "https://www.theregister.com/security/2026/11/19/tfl-takes-oyster-photocard-website-offline-after-attackers-compromise-customer-accounts/5310985"
+    },
+    {
+      "date": "2026-11-19",
+      "company": "Northeast Ohio public libraries (via outside vendors)",
+      "type": "Email list",
+      "title": "Vendor hacks exposed library patrons' usernames, emails and card numbers at three Ohio library systems.",
+      "summary": "Cuyahoga County, Akron-Summit County and Westlake Porter public libraries say outside vendors that run their patron account services were hit on November 15, part of a wider problem affecting library vendors nationally. Names, home and email addresses, phone numbers, birth dates, usernames and library card numbers were exposed, though the libraries say plain-text passwords and borrowing history were not accessed. Two of the libraries pulled their mobile apps offline, and all three are urging patrons to reset their library PINs or passwords.",
+      "tip": "If you use one of these libraries, reset your library PIN or password, and be wary of unexpected emails, texts or calls that mention your library account.",
+      "source": "News 5 Cleveland",
+      "sourceShort": "N5",
+      "url": "https://www.news5cleveland.com/news/local-news/we-follow-through/northeast-ohio-libraries-urge-patrons-to-reset-passwords-after-cybersecurity-breach"
+    },
     {
       "date": "2026-11-17",
       "company": "Rakuten Securities",
