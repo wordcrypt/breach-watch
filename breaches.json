@@ -1,7 +1,18 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "entries": [
+    {
+      "date": "2026-11-19",
+      "company": "JPMorgan Chase (via outside vendors)",
+      "type": "Email list",
+      "title": "Hackers took marketing data from JPMorgan Chase vendors, possibly including customer names and email addresses.",
+      "summary": "JPMorgan Chase confirmed on November 19 that attackers got into outside companies that provide services to the bank and reached marketing data those vendors held. The bank says the data may include some customer names and email addresses, has not said how many people are affected, and says its own banking services were not disrupted. Chase says it will contact affected customers where appropriate and offer support, including free credit monitoring.",
+      "tip": "If you bank with Chase, be extra wary of emails that look like they come from the bank, and log in through the Chase app or by typing chase.com yourself instead of clicking links.",
+      "source": "Cyber Security News",
+      "sourceShort": "CSN",
+      "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/"
+    },
     {
       "date": "2026-11-19",
       "company": "Transport for London (Oyster photocard)",
