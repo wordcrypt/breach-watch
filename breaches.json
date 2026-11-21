@@ -1,7 +1,29 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "entries": [
+    {
+      "date": "2026-11-20",
+      "company": "Too Lost",
+      "type": "Passwords",
+      "title": "Music distribution service breach exposed about 724,000 email addresses, some with password hashes.",
+      "summary": "Data from Too Lost, a service that helps independent musicians release their music, was added to Have I Been Pwned on November 20 after a November 2026 breach. About 724,000 email addresses belonging to artists, collaborators and fans were exposed, along with names, addresses and payment histories, and some records also held scrambled (hashed) passwords and ID document numbers. Too Lost says it brought in outside forensic experts, has secured the affected systems and credentials, and is still investigating.",
+      "tip": "If you have a Too Lost account, change that password and any other account where you used the same one, and turn on two-step login.",
+      "source": "Have I Been Pwned",
+      "sourceShort": "HIBP",
+      "url": "https://haveibeenpwned.com/Breach/TooLost"
+    },
+    {
+      "date": "2026-11-19",
+      "company": "Visa and Mastercard (via outside vendor)",
+      "type": "Email list",
+      "title": "Hackers leaked customer contact details from a vendor serving Visa and Mastercard card perks programs.",
+      "summary": "Visa and Mastercard confirmed on November 19 that an outside supplier was hacked, and a criminal group then posted the stolen data online. Reports say the leak includes names, email addresses and some phone numbers, with Visa's portion covering more than 6,000 premium cardholders; Mastercard says only a limited number of people in one benefit program were affected. Both companies say no card numbers or payment data were exposed and their own systems were not hit.",
+      "tip": "If you use Visa or Mastercard card perks, be wary of calls or emails about your benefits, and never share a login or verification code with anyone who contacts you.",
+      "source": "Malwarebytes Labs",
+      "sourceShort": "MB",
+      "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers"
+    },
     {
       "date": "2026-11-19",
       "company": "JPMorgan Chase (via outside vendors)",
