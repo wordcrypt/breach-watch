@@ -1,7 +1,29 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "entries": [
+    {
+      "date": "2026-11-21",
+      "company": "Tower Records Japan",
+      "type": "Email list",
+      "title": "Hackers reached login details tied to about 10.2 million Tower Records Japan online store accounts.",
+      "summary": "Tower Records Japan says an intruder got into its systems, and it spotted the break-in on November 19. Login information linked to roughly 10.2 million customer accounts was exposed, including email addresses and user IDs, and the company has not said whether passwords were involved. The company has not yet explained how the attackers got in and is still updating its notice.",
+      "tip": "If you shop at Tower Records Japan online, change that password and any other account that uses the same one, and watch for emails pretending to be from the store.",
+      "source": "Investing.com",
+      "sourceShort": "INV",
+      "url": "https://www.investing.com/news/company-news/tower-records-japan-reports-data-breach-affecting-102-million-accounts-5043878"
+    },
+    {
+      "date": "2026-11-20",
+      "company": "Pay Don app (via Infcurion)",
+      "type": "Passwords",
+      "title": "Hack at a payment app's system provider may have exposed 251,172 records, including passwords.",
+      "summary": "Four banks in Kagoshima, Japan, that run the Pay Don payment app said on November 20 that an outsider broke into Wallet Station, the payment system operated for them by Infcurion. About 251,172 records may have been exposed, including names, birth dates, phone numbers, email addresses, passwords, linked account details and purchase history. All Pay Don services were shut down that morning, the weak spot has been patched, and no misuse has been confirmed so far.",
+      "tip": "If you use Pay Don, change any other account where you used the same password, and be wary of emails or texts asking you to log in or confirm payment details.",
+      "source": "SmartScope",
+      "sourceShort": "SS",
+      "url": "https://smartscope.blog/blog/paydon-all-services-suspended-251-172-records-leaked-2026/"
+    },
     {
       "date": "2026-11-20",
       "company": "Too Lost",
