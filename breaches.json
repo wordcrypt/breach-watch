@@ -1,7 +1,29 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "entries": [
+    {
+      "date": "2026-11-23",
+      "company": "Samsung Securities",
+      "type": "Email list",
+      "title": "Intruder reached a South Korean brokerage's complaint system, exposing details of 8,241 customers.",
+      "summary": "Samsung Securities says someone got unauthorized access on November 21 to files customers had uploaded to its customer complaint system. Depending on the person, the files included names, contact details, home addresses, securities account numbers and driver's license numbers, but passwords were not listed among the exposed data. The company shut down the complaint service, blocked the attackers' addresses, reported the incident to regulators and is notifying affected customers one by one.",
+      "tip": "If you have an account with Samsung Securities, be wary of calls or messages claiming to be from the firm, and never give out your password or one-time codes to anyone who contacts you.",
+      "source": "Cyber Security News",
+      "sourceShort": "CSN",
+      "url": "https://cybersecuritynews.com/samsung-securities-data-breach/"
+    },
+    {
+      "date": "2026-11-22",
+      "company": "Microsoft (Entra Connect Health)",
+      "type": "Business accounts",
+      "title": "Attackers abused a flaw in a Microsoft monitoring service to read organizations' Microsoft 365 account details.",
+      "summary": "Microsoft told customers that a flaw in its Entra Connect Health cloud service let attackers read records about business tenants, such as organization names, domains and license details, and reports say admin contact email addresses were also taken. Microsoft says passwords, password hashes and sign-in tokens were not exposed. It fixed the flaw on its side on November 19 and is urging organizations to check their logs and use strong multi-factor sign-in for admin accounts.",
+      "tip": "If your business uses Microsoft 365, make sure admin accounts use multi-factor sign-in and treat unexpected emails about your account with extra suspicion.",
+      "source": "Cyber Security News",
+      "sourceShort": "CSN",
+      "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/"
+    },
     {
       "date": "2026-11-21",
       "company": "Tower Records Japan",
