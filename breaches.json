@@ -1,7 +1,29 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "entries": [
+    {
+      "date": "2026-11-23",
+      "company": "LaLiga",
+      "type": "Email list",
+      "title": "Spain's top soccer league says a hacker took personal data of fans registered for its online services.",
+      "summary": "LaLiga says an intruder got into one of its fan services platforms between November 14 and 16 and pulled out personal data of people signed up for digital services run by the league and some clubs. It has not said how many fans are affected or exactly which details were taken. The league blocked the attack, reported it to Spain's data protection agency and police, alerted the affected clubs and is arranging to notify fans.",
+      "tip": "If you have a LaLiga or Spanish club fan account, watch for phishing messages using your details and change that password anywhere else you reused it.",
+      "source": "BleepingComputer",
+      "sourceShort": "BC",
+      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/"
+    },
+    {
+      "date": "2026-11-23",
+      "company": "KodeKloud",
+      "type": "Email list",
+      "title": "Online tech training site says a hacker reached learner names, emails and usernames.",
+      "summary": "KodeKloud found on November 10 that someone used a software flaw to get admin access to an internal reporting tool holding learner account details. The exposed data includes names, current and past email addresses, usernames, last sign-in times and job titles, while the company says passwords and payment details were not kept in that tool. It closed the flaw, rotated keys for the system, started a forensic review and is emailing affected learners.",
+      "tip": "If you use KodeKloud, expect phishing emails that use your name or username, and remember the company says it will never ask for your password by email.",
+      "source": "OpenClassActions",
+      "sourceShort": "OCA",
+      "url": "https://openclassactions.com/news/data-breaches/kodekloud-data-breach-2026.php"
+    },
     {
       "date": "2026-11-23",
       "company": "Samsung Securities",
