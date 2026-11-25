@@ -1,7 +1,51 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "entries": [
+    {
+      "date": "2026-11-24",
+      "company": "Todoist",
+      "type": "Passwords",
+      "title": "To-do app Todoist says a hacker downloaded records for about 6% of its users, including old password hashes.",
+      "summary": "Todoist says an attacker used a stolen developer credential on November 22 to move through its internal systems and, on November 23, downloaded a file of early user accounts. That file held email addresses, sign-up dates and passwords scrambled with an older hashing method, and a very small number of users also had connected app tokens or sensitive text from their tasks exposed. The company cut off the attacker, rotated its internal keys, retired the old hashing method and is disabling passwords and logging out affected users.",
+      "tip": "If you use Todoist, follow any email it sends you, set a new unique password, and change any passwords or keys you ever saved inside your tasks.",
+      "source": "CXO Digital Pulse",
+      "sourceShort": "CDP",
+      "url": "https://www.cxodigitalpulse.com/todoist-discloses-breach-affecting-user-records-and-connected-accounts/"
+    },
+    {
+      "date": "2026-11-24",
+      "company": "Gatwick Airport (AutoPay drop-off system)",
+      "type": "Passwords",
+      "title": "Gatwick switched off its AutoPay drop-off payment system after intruders reached customer logins and contact details.",
+      "summary": "London Gatwick says someone got unauthorized access to AutoPay, the drop-off zone payment system run for it by supplier Times24. Exposed details include AutoPay login credentials, home and email addresses, vehicle details and drop-off records, and in a few cases the card brand, last four digits and expiry date. Gatwick has disabled AutoPay, told the UK data regulator and warned customers about suspicious calls, texts and emails.",
+      "tip": "If you used Gatwick AutoPay, change that password anywhere else you used it and treat any message about drop-off charges or refunds with suspicion.",
+      "source": "JBizNews",
+      "sourceShort": "JBN",
+      "url": "https://jbiznews.com/gatwick-suspends-autopay-after-data-breach-exposes-customer-information/"
+    },
+    {
+      "date": "2026-11-24",
+      "company": "Bromcom (UK school software)",
+      "type": "Email list",
+      "title": "An old login component at UK school software firm Bromcom exposed about 355,000 staff and pupil email addresses.",
+      "summary": "Attackers used a leftover single sign-on registration tool in Bromcom's systems to pull out sign-in registration data, which the firm found in September after schools reported login problems. About 355,000 email addresses of school staff and pupils were taken along with registration reference numbers; Bromcom says no passwords or login tokens were stolen and pupil records were not reached. The company removed the old component, tightened access checks and told schools to watch for phishing and odd password-reset requests.",
+      "tip": "If your school uses Bromcom, ignore unexpected password-reset or sign-in approval requests and check suspicious school emails with the school directly.",
+      "source": "The Register",
+      "sourceShort": "TR",
+      "url": "https://www.theregister.com/cyber-crime/2026/11/24/education-software-suppliers-legacy-login-system-left-355000-school-email-addresses-exposed/5311622"
+    },
+    {
+      "date": "2026-11-24",
+      "company": "GoFundMe Pro",
+      "type": "Email list",
+      "title": "GoFundMe warns donors that an outsider may have reached their contact details through its nonprofit fundraising platform.",
+      "summary": "GoFundMe says a third party abused login credentials for GoFundMe Pro's link to Salesforce in October and November and may have accessed nonprofits' donor records. Reported exposed details include donor names, addresses, emails, phone numbers and birthdates; the number of people affected has not been released. GoFundMe says it shut off the access, disabled unauthorized accounts and contacted law enforcement, and Salesforce has paused the integration.",
+      "tip": "If you have donated through a charity's GoFundMe Pro page, be wary of emails or calls asking for donations or payment details and give only through the charity's own website.",
+      "source": "WSB Radio",
+      "sourceShort": "WSB",
+      "url": "https://www.wsbradio.com/news/trending/gofundme-alerts-donors-data-breach/WSYJCTJU3BD4XPYVUBIKF7SFUM/"
+    },
     {
       "date": "2026-11-23",
       "company": "LaLiga",
