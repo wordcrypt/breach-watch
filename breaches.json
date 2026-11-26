@@ -1,7 +1,18 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "entries": [
+    {
+      "date": "2026-11-25",
+      "company": "1Password",
+      "type": "Password managers",
+      "title": "Password manager 1Password says an intruder copied some customers' names and sign-in email addresses.",
+      "summary": "1Password says that after spotting an intrusion on November 19, it found an attacker had used an employee's corporate GitHub account to push malicious code onto internal servers. The attacker copied names, the email addresses customers sign in with, and account creation and last sign-in dates for some customers, but the company says vaults, account passwords and Secret Keys were never reached. It has not said how many people are affected; it shut off the attacker's access and says it changed internal credentials that may have been exposed.",
+      "tip": "If you use 1Password, expect phishing that mentions your account, and only type your password into the official app or a website address you enter yourself.",
+      "source": "TechCrunch",
+      "sourceShort": "TC",
+      "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/"
+    },
     {
       "date": "2026-11-24",
       "company": "Todoist",
