@@ -1,7 +1,18 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "entries": [
+    {
+      "date": "2026-11-25",
+      "company": "Backloggd",
+      "type": "Passwords",
+      "title": "Game diary site Backloggd says an attacker reached its admin tools and user records, including hashed passwords.",
+      "summary": "Backloggd, a site where gamers log and review what they play, says an attacker used a bug to get into its admin tools, then hid some games and restricted some accounts. The site's operator says usernames, email addresses, hashed passwords and sign-in IP addresses were exposed, while payments, handled through Patreon, were not. The site went offline while the bug was fixed, everyone has been signed out, and users are being told to change their passwords.",
+      "tip": "If you have a Backloggd account, change that password, and change it anywhere else you used the same one.",
+      "source": "The Brief",
+      "sourceShort": "BR",
+      "url": "https://www.thebrief.news/en/standard/article/47813/backloggd-breach-why-every-user-needs-a-password-reset"
+    },
     {
       "date": "2026-11-25",
       "company": "1Password",
