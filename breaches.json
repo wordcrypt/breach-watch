@@ -1,6 +1,6 @@
 {
   "_readme": "Breach Watch list for wordcrypt.com/breaches/ (newest first). Updated by WordCrypt's daily breach watch. Each entry: date (YYYY-MM-DD), dateLabel (optional), company, type (Passwords | Reused passwords | Email list | Business accounts | Password managers), title, summary, tip, source, sourceShort, url.",
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "entries": [
     {
       "date": "2026-11-25",
@@ -23,6 +23,17 @@
       "source": "TechCrunch",
       "sourceShort": "TC",
       "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/"
+    },
+    {
+      "date": "2026-11-24",
+      "company": "Unprotected login database",
+      "type": "Reused passwords",
+      "title": "About 2 billion stolen logins, many taken by password-stealing malware, sat in an open database.",
+      "summary": "Researcher Jeremiah Fowler found a database with no password or encryption holding roughly 2 billion credential records, including email addresses, usernames, passwords, browser cookies and session tokens that appear to come from password-stealing malware. The records covered all kinds of services, from email and banking to social media and government sites, and it was not a breach of any one company. Its owner is unknown; the hosting provider restricted public access several days after Fowler reported it.",
+      "tip": "If you suspect malware, clean or reset your device first, then change reused passwords from a clean device, sign out other sessions on key accounts and turn on two-step sign-in.",
+      "source": "ExpressVPN Research",
+      "sourceShort": "EV",
+      "url": "https://www.expressvpn.com/research/2billion-credentials-exposed"
     },
     {
       "date": "2026-11-24",
